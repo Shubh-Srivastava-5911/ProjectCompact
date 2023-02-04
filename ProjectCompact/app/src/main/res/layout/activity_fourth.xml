@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/asbackground"
+    android:orientation="vertical"
+    tools:context=".Fourth">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6184D9DC">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Project Compact"
+                android:textColor="@color/textColor"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#1C848E"
+                android:text="about"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#1C848E"
+                android:text="logout"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/materialButton"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#BF1C848E"
+                android:drawableStart="@drawable/astoast"
+                android:text="toast input"
+                android:textColor="#FDFCFC"
+                android:textSize="20dp">
+            </Button>
+            <Button
+                android:id="@+id/materialButton2"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#BF1C848E"
+                android:drawableStart="@drawable/asspeak"
+                android:text="text to speech"
+                android:textColor="#FDFCFC"
+                android:textSize="20dp">
+            </Button>
+            <Button
+                android:id="@+id/materialButton3"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#BF1C848E"
+                android:drawableStart="@drawable/ascalc"
+                android:text="calculator"
+                android:textColor="#FDFCFC"
+                android:textSize="20dp">
+            </Button>
+            <Button
+                android:id="@+id/materialButton4"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#BF1C848E"
+                android:drawableStart="@drawable/asmusic"
+                android:text="music"
+                android:textColor="#FDFCFC"
+                android:textSize="20dp">
+            </Button>
+            <Button
+                android:id="@+id/materialButton5"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#BF1C848E"
+                android:drawableStart="@drawable/astorch"
+                android:text="torch toggle"
+                android:textColor="#FDFCFC"
+                android:textSize="20dp">
+            </Button>
+            <Button
+                android:id="@+id/materialButton6"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#BF1C848E"
+                android:drawableStart="@drawable/aswifi"
+                android:text="wifi toggle"
+                android:textColor="#FDFCFC"
+                android:textSize="20dp">
+            </Button>
+<!--            <Button-->
+<!--                android:id="@+id/materialButton7"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="90dp"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:layout_marginRight="10dp"-->
+<!--                android:background="#BF1C848E"-->
+<!--                android:drawableStart="@drawable/asbluetooth"-->
+<!--                android:text="bluetooth toggle"-->
+<!--                android:textColor="#FDFCFC"-->
+<!--                android:textSize="20dp">-->
+<!--            </Button>-->
+            <Button
+                android:id="@+id/materialButton8"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#BF1C848E"
+                android:drawableStart="@drawable/assensor"
+                android:text="proximity sensor"
+                android:textColor="#FDFCFC"
+                android:textSize="20dp">
+            </Button>
+            <Button
+                android:id="@+id/materialButton9"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#BF1C848E"
+                android:drawableStart="@drawable/asaccelerometer"
+                android:text="accelerometer"
+                android:textColor="#FDFCFC"
+                android:textSize="20dp">
+            </Button>
+            <Button
+                android:id="@+id/materialButton10"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:background="#BF1C848E"
+                android:drawableStart="@drawable/asurl"
+                android:text="url"
+                android:textColor="#FDFCFC"
+                android:textSize="20dp">
+            </Button>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

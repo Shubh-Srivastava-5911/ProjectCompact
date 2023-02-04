@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "628690779080",
+    "firebase_url": "https://project-compact-default-rtdb.firebaseio.com",
+    "project_id": "project-compact",
+    "storage_bucket": "project-compact.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628690779080:android:77a1e583f73875594e5efd",
+        "android_client_info": {
+          "package_name": "com.example.projectcompact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628690779080-o0co84731b3ec82p727dgbbihajsmj0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLK_XS_Em32r2H-Pxo2APBScJfw1yOTos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628690779080-o0co84731b3ec82p727dgbbihajsmj0n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
